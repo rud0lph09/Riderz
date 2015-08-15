@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0725A1E71B7F8AEB0002B7A0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */; };
+		0725A1E91B7F99E10002B7A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725A1E81B7F99E10002B7A0 /* LoginViewController.swift */; };
 		07727B79DC607966122D1A8D /* libPods-Riderz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342D302CABEEAE72C66894B9 /* libPods-Riderz.a */; };
-		0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8961B7F7AF10005B519 /* LoginViewController.m */; };
 		0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8991B7F7B3F0005B519 /* FirstViewController.m */; };
 		0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */; };
 		0774C8A01B7F7F9B0005B519 /* AddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C89F1B7F7F9B0005B519 /* AddContactsViewController.m */; };
@@ -69,10 +69,9 @@
 /* Begin PBXFileReference section */
 		0725A1E51B7F8AEB0002B7A0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0725A1E81B7F99E10002B7A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0774C8911B7F75F80005B519 /* Riderz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riderz-Bridging-Header.h"; sourceTree = "<group>"; };
 		0774C8921B7F75F80005B519 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
-		0774C8951B7F7AF10005B519 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		0774C8961B7F7AF10005B519 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0774C8981B7F7B3F0005B519 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		0774C8991B7F7B3F0005B519 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeInfoViewController.h; sourceTree = "<group>"; };
@@ -176,6 +175,7 @@
 			children = (
 				E01084D21B7F3D4300097E2D /* AppDelegate.swift */,
 				E01084D91B7F3D4300097E2D /* Main.storyboard */,
+				0725A1E81B7F99E10002B7A0 /* LoginViewController.swift */,
 				0725A1E51B7F8AEB0002B7A0 /* SettingsViewController.h */,
 				0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */,
 				0774C89E1B7F7F9B0005B519 /* AddContactsViewController.h */,
@@ -184,8 +184,6 @@
 				0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */,
 				0774C8981B7F7B3F0005B519 /* FirstViewController.h */,
 				0774C8991B7F7B3F0005B519 /* FirstViewController.m */,
-				0774C8951B7F7AF10005B519 /* LoginViewController.h */,
-				0774C8961B7F7AF10005B519 /* LoginViewController.m */,
 				0774C8921B7F75F80005B519 /* Bridge.h */,
 				E01084DC1B7F3D4300097E2D /* Images.xcassets */,
 				E01084DE1B7F3D4300097E2D /* LaunchScreen.xib */,
@@ -455,11 +453,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0725A1E91B7F99E10002B7A0 /* LoginViewController.swift in Sources */,
 				E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */,
 				0774C8A01B7F7F9B0005B519 /* AddContactsViewController.m in Sources */,
 				E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */,
 				0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */,
-				0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */,
 				0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */,
 				0725A1E71B7F8AEB0002B7A0 /* SettingsViewController.m in Sources */,
 			);
