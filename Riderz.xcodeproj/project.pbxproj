@@ -21,6 +21,7 @@
 		E010850F1B7F3D5C00097E2D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E010850D1B7F3D5C00097E2D /* Interface.storyboard */; };
 		E01085111B7F3D5C00097E2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01085101B7F3D5C00097E2D /* Images.xcassets */; };
 		E01085141B7F3D5C00097E2D /* Riderz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E01084F91B7F3D5B00097E2D /* Riderz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E010851D1B7F726B00097E2D /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010851C1B7F726B00097E2D /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		E010850C1B7F3D5C00097E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E010850E1B7F3D5C00097E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		E01085101B7F3D5C00097E2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E010851C1B7F726B00097E2D /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				E01084D21B7F3D4300097E2D /* AppDelegate.swift */,
 				E01084D71B7F3D4300097E2D /* ViewController.swift */,
+				E010851C1B7F726B00097E2D /* Vector.swift */,
 				E01084D91B7F3D4300097E2D /* Main.storyboard */,
 				E01084DC1B7F3D4300097E2D /* Images.xcassets */,
 				E01084DE1B7F3D4300097E2D /* LaunchScreen.xib */,
@@ -372,6 +375,7 @@
 			files = (
 				E01084D81B7F3D4300097E2D /* ViewController.swift in Sources */,
 				E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */,
+				E010851D1B7F726B00097E2D /* Vector.swift in Sources */,
 				E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,6 +655,7 @@
 				E01084F11B7F3D4300097E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01084F21B7F3D4300097E2D /* Build configuration list for PBXNativeTarget "RiderzTests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +664,7 @@
 				E01084F41B7F3D4300097E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01085151B7F3D5C00097E2D /* Build configuration list for PBXNativeTarget "Riderz WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +673,7 @@
 				E01085171B7F3D5C00097E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01085181B7F3D5C00097E2D /* Build configuration list for PBXNativeTarget "Riderz WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +682,7 @@
 				E010851A1B7F3D5C00097E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
