@@ -18,10 +18,31 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="q8X-7Q-vWs"/>
+                    <connections>
+                        <segue destination="Pba-9N-Asu" kind="show" id="M3f-P3-gHZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="966" y="237"/>
+        </scene>
+        <!--Add Contacts View Controller-->
+        <scene sceneID="rle-RB-0Yi">
+            <objects>
+                <viewController id="Pba-9N-Asu" customClass="AddContactsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fdr-ZZ-WvW"/>
+                        <viewControllerLayoutGuide type="bottom" id="hje-4r-fIR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IdJ-hg-Rry">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ouV-tr-T9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966" y="891"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="Ips-Lf-Ntv">

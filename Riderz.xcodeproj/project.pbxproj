@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07727B79DC607966122D1A8D /* libPods-Riderz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342D302CABEEAE72C66894B9 /* libPods-Riderz.a */; };
 		0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8961B7F7AF10005B519 /* LoginViewController.m */; };
 		0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8991B7F7B3F0005B519 /* FirstViewController.m */; };
 		0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */; };
+		0774C8A01B7F7F9B0005B519 /* AddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C89F1B7F7F9B0005B519 /* AddContactsViewController.m */; };
 		E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01084D21B7F3D4300097E2D /* AppDelegate.swift */; };
 		E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E01084D41B7F3D4300097E2D /* Riderz.xcdatamodeld */; };
 		E01084DB1B7F3D4300097E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01084D91B7F3D4300097E2D /* Main.storyboard */; };
@@ -72,6 +74,11 @@
 		0774C8991B7F7B3F0005B519 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeInfoViewController.h; sourceTree = "<group>"; };
 		0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeInfoViewController.m; sourceTree = "<group>"; };
+		0774C89E1B7F7F9B0005B519 /* AddContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactsViewController.h; sourceTree = "<group>"; };
+		0774C89F1B7F7F9B0005B519 /* AddContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactsViewController.m; sourceTree = "<group>"; };
+		342D302CABEEAE72C66894B9 /* libPods-Riderz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Riderz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606C6BC03BF5B2BDD3A58AF9 /* Pods-Riderz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riderz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riderz/Pods-Riderz.debug.xcconfig"; sourceTree = "<group>"; };
+		DE2303FECA73904AA262AE15 /* Pods-Riderz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riderz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riderz/Pods-Riderz.release.xcconfig"; sourceTree = "<group>"; };
 		E01084CD1B7F3D4300097E2D /* Riderz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riderz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01084D11B7F3D4300097E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01084D21B7F3D4300097E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07727B79DC607966122D1A8D /* libPods-Riderz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		897FF39EA0BFE57BD74DE06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342D302CABEEAE72C66894B9 /* libPods-Riderz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9707341413894B49BF6919F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				606C6BC03BF5B2BDD3A58AF9 /* Pods-Riderz.debug.xcconfig */,
+				DE2303FECA73904AA262AE15 /* Pods-Riderz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E01084C41B7F3D4300097E2D = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +152,8 @@
 				E01084FA1B7F3D5B00097E2D /* Riderz WatchKit Extension */,
 				E010850A1B7F3D5C00097E2D /* Riderz WatchKit App */,
 				E01084CE1B7F3D4300097E2D /* Products */,
+				9707341413894B49BF6919F7 /* Pods */,
+				897FF39EA0BFE57BD74DE06E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +173,8 @@
 			children = (
 				E01084D21B7F3D4300097E2D /* AppDelegate.swift */,
 				E01084D91B7F3D4300097E2D /* Main.storyboard */,
+				0774C89E1B7F7F9B0005B519 /* AddContactsViewController.h */,
+				0774C89F1B7F7F9B0005B519 /* AddContactsViewController.m */,
 				0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */,
 				0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */,
 				0774C8981B7F7B3F0005B519 /* FirstViewController.h */,
@@ -232,10 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01084EF1B7F3D4300097E2D /* Build configuration list for PBXNativeTarget "Riderz" */;
 			buildPhases = (
+				8226AF85EADA17A6A5E0F4CA /* Check Pods Manifest.lock */,
 				E01084C91B7F3D4300097E2D /* Sources */,
 				E01084CA1B7F3D4300097E2D /* Frameworks */,
 				E01084CB1B7F3D4300097E2D /* Resources */,
 				E010851B1B7F3D5C00097E2D /* Embed App Extensions */,
+				28CA002630D3928848D64FFE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,12 +412,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28CA002630D3928848D64FFE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riderz/Pods-Riderz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8226AF85EADA17A6A5E0F4CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E01084C91B7F3D4300097E2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */,
+				0774C8A01B7F7F9B0005B519 /* AddContactsViewController.m in Sources */,
 				E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */,
 				0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */,
 				0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */,
@@ -542,6 +607,7 @@
 		};
 		E01084F01B7F3D4300097E2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606C6BC03BF5B2BDD3A58AF9 /* Pods-Riderz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -555,6 +621,7 @@
 		};
 		E01084F11B7F3D4300097E2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2303FECA73904AA262AE15 /* Pods-Riderz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
