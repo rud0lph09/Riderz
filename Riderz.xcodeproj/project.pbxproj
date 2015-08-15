@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8961B7F7AF10005B519 /* LoginViewController.m */; };
+		0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8991B7F7B3F0005B519 /* FirstViewController.m */; };
+		0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */; };
 		E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01084D21B7F3D4300097E2D /* AppDelegate.swift */; };
 		E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E01084D41B7F3D4300097E2D /* Riderz.xcdatamodeld */; };
-		E01084D81B7F3D4300097E2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01084D71B7F3D4300097E2D /* ViewController.swift */; };
 		E01084DB1B7F3D4300097E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01084D91B7F3D4300097E2D /* Main.storyboard */; };
 		E01084DD1B7F3D4300097E2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01084DC1B7F3D4300097E2D /* Images.xcassets */; };
 		E01084E01B7F3D4300097E2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01084DE1B7F3D4300097E2D /* LaunchScreen.xib */; };
@@ -64,11 +66,16 @@
 /* Begin PBXFileReference section */
 		0774C8911B7F75F80005B519 /* Riderz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riderz-Bridging-Header.h"; sourceTree = "<group>"; };
 		0774C8921B7F75F80005B519 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		0774C8951B7F7AF10005B519 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0774C8961B7F7AF10005B519 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0774C8981B7F7B3F0005B519 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0774C8991B7F7B3F0005B519 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeInfoViewController.h; sourceTree = "<group>"; };
+		0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeInfoViewController.m; sourceTree = "<group>"; };
 		E01084CD1B7F3D4300097E2D /* Riderz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riderz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01084D11B7F3D4300097E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01084D21B7F3D4300097E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01084D51B7F3D4300097E2D /* Riderz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Riderz.xcdatamodel; sourceTree = "<group>"; };
-		E01084D71B7F3D4300097E2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E01084DA1B7F3D4300097E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01084DC1B7F3D4300097E2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E01084DF1B7F3D4300097E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -138,8 +145,13 @@
 			isa = PBXGroup;
 			children = (
 				E01084D21B7F3D4300097E2D /* AppDelegate.swift */,
-				E01084D71B7F3D4300097E2D /* ViewController.swift */,
 				E01084D91B7F3D4300097E2D /* Main.storyboard */,
+				0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */,
+				0774C89C1B7F7BA60005B519 /* BikeInfoViewController.m */,
+				0774C8981B7F7B3F0005B519 /* FirstViewController.h */,
+				0774C8991B7F7B3F0005B519 /* FirstViewController.m */,
+				0774C8951B7F7AF10005B519 /* LoginViewController.h */,
+				0774C8961B7F7AF10005B519 /* LoginViewController.m */,
 				0774C8921B7F75F80005B519 /* Bridge.h */,
 				E01084DC1B7F3D4300097E2D /* Images.xcassets */,
 				E01084DE1B7F3D4300097E2D /* LaunchScreen.xib */,
@@ -374,9 +386,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01084D81B7F3D4300097E2D /* ViewController.swift in Sources */,
 				E01084D31B7F3D4300097E2D /* AppDelegate.swift in Sources */,
 				E01084D61B7F3D4300097E2D /* Riderz.xcdatamodeld in Sources */,
+				0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */,
+				0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */,
+				0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
