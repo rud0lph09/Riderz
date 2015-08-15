@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0725A1E71B7F8AEB0002B7A0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */; };
 		07727B79DC607966122D1A8D /* libPods-Riderz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342D302CABEEAE72C66894B9 /* libPods-Riderz.a */; };
 		0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8961B7F7AF10005B519 /* LoginViewController.m */; };
 		0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0774C8991B7F7B3F0005B519 /* FirstViewController.m */; };
@@ -66,6 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0725A1E51B7F8AEB0002B7A0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		0774C8911B7F75F80005B519 /* Riderz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riderz-Bridging-Header.h"; sourceTree = "<group>"; };
 		0774C8921B7F75F80005B519 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		0774C8951B7F7AF10005B519 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 			children = (
 				E01084D21B7F3D4300097E2D /* AppDelegate.swift */,
 				E01084D91B7F3D4300097E2D /* Main.storyboard */,
+				0725A1E51B7F8AEB0002B7A0 /* SettingsViewController.h */,
+				0725A1E61B7F8AEB0002B7A0 /* SettingsViewController.m */,
 				0774C89E1B7F7F9B0005B519 /* AddContactsViewController.h */,
 				0774C89F1B7F7F9B0005B519 /* AddContactsViewController.m */,
 				0774C89B1B7F7BA60005B519 /* BikeInfoViewController.h */,
@@ -456,6 +461,7 @@
 				0774C89D1B7F7BA60005B519 /* BikeInfoViewController.m in Sources */,
 				0774C8971B7F7AF10005B519 /* LoginViewController.m in Sources */,
 				0774C89A1B7F7B3F0005B519 /* FirstViewController.m in Sources */,
+				0725A1E71B7F8AEB0002B7A0 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
