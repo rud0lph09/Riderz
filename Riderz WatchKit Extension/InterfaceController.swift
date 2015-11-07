@@ -3,7 +3,7 @@
 //  Riderz WatchKit Extension
 //
 //  Created by Rodolfo Castillo on 15/08/15.
-//  And Krikor Bisdikian.
+//  And Krikor Bisdikian. Y otros
 //  Copyright (c) 2015 Rodolfo Castillo. All rights reserved.
 //
 
